@@ -1,6 +1,7 @@
 # Graizelle's sdxl_trainer_pro
-Advanced SDXL trainer notebook optimized for Illustrious 2.0 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Graizelle/Graizelle_sdxl_trainer_pro/blob/main/Graizelle's_SDXL_Trainer_Pro_v1.ipynb)
 ## Overview
+Advanced SDXL trainer notebook optimized for Illustrious 2.0 
 
 This notebook is designed as a complete SDXL LoRA training workflow built around Hugging Face repositories using HF Xet storage 10x faster than G Drive or Git LFS,  or manually uploading datasets to Colab each session. your images, captions, trained LoRAs, and processed datasets are managed directly through Hugging Face repos. The notebook automatically downloads your dataset, prepares it for training, performs optional tagging and cleanup, trains your LoRA using `kohya-ss/sd-scripts`, and can upload finished `.safetensors` files back to your Hugging Face LoRA repository.
 
